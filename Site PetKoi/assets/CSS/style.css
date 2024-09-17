@@ -11,15 +11,16 @@ body {
 }
 
 /* PARTE DO HEADER */
-nav {
+.header-container {
     background-color: #F8E99A; /* Cor de fundo do cabeçalho */
     padding: 10px 20px; /* Espaçamento interno */
     display: flex;
     align-items: center; /* Alinha itens verticalmente no centro */
     justify-content: space-between; /* Espaça os itens horizontalmente */
+    height: 120px;
 }
 
-nav, .icon-logo {
+.icon-logo {
     height: 150px; /* Ajusta a altura do logo */
 }
 
@@ -64,6 +65,31 @@ button:hover {
     background-color: #0056b3; /* Cor de fundo do botão quando passa o mouse */
 }
 
+/* PARTE DO NAVBAR */
+.nav-bar {
+    background: #7A3A8E;
+    min-height: 30px;
+    font-size: large;
+    text-align: center;
+    padding: 10px;
+    color: #F0E702;
+}
+
+.nav-bar ul {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-bar a:hover {
+    text-decoration: underline;
+}
 
 /* PARTE DO MAIN */
 .container {
@@ -80,7 +106,6 @@ button:hover {
 .sache {
     height: 150px;
 }
-
 
 /* PARTE DO FOOTER */
 footer {
@@ -135,6 +160,3 @@ footer .social-icons {
     height: 30px;
     display: block;
 }
-
-
-
