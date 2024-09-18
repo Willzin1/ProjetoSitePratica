@@ -107,6 +107,15 @@ button:hover {
     height: 150px;
 }
 
+.sache-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sache-container figure {
+    padding: 1em;
+}
+
 /* PARTE DO FOOTER */
 footer {
     position: absolute;
